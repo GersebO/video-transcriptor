@@ -1,0 +1,119 @@
+# ==============================================================================
+# Byte-compiled / optimized / C extensions
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==============================================================================
+# Packaging / Distribution
+# ==============================================================================
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==============================================================================
+# Virtual Environments
+# ==============================================================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# Testing & Coverage
+# ==============================================================================
+.pytest_cache/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+.tox/
+.nox/
+
+# ==============================================================================
+# Environment Variables & Secrets
+# ==============================================================================
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ==============================================================================
+# IDEs & Code Editors
+# ==============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ==============================================================================
+# Operating System Files
+# ==============================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ==============================================================================
+# Transcriptor - Estados, bases de datos y temporales
+# ==============================================================================
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+jobs.db
+ultima_ruta.txt
+temp/
+tmp/
+
+# Archivos de medios (videos y audios que no deben subirse a git)
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.flv
+*.wmv
+*.m4v
+*.ts
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.opus
+*.aac
+*.wma
+*.wav
+
+# Salidas temporales y resultados locales
+*.partial.jsonl
+results/
+models/
+*.gguf
+*.onnx
